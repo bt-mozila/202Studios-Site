@@ -1,0 +1,155 @@
+site:
+  hero:
+    title: Welcome to 202Studios
+    description: Empowering innovation through cutting-edge technology solutions, driving growth, and transforming businesses for a dynamic digital future
+    primaryCta: Get Started
+    secondaryCta: Explore Our Work
+  about:
+    title: About Us
+    description: We offer Expert Board-Level Electronics Repairs, Custom Web Design & Development, and Reliable Web Hosting to Power Your Digital Growth.
+  services:
+    title: Our Services
+    description: We offer a wide range of services designed to meet your needs. Whether you’re looking for Professional Electronics Repairs, Custom Web Development, reliable Web Hosting, or Business Process Automation, Our Team is here to help you achieve your goals with professionalism and expertise.
+    items:
+      - icon: bi-tools
+        title: Electronics Repairs
+        description: Get quick and professional repair services for your electronic devices, including Desktops, Laptops, Smartphones, Tablets, Gaming Consoles, and many more.
+        button: Book a Repair
+        link: "#contact"
+      - icon: bi-braces
+        title: Web Development
+        description: We develop custom software solutions that meet your specific business needs, with a focus on efficiency and scalability.
+        button: Explore Our Portfolio
+        link: "#portfolio"
+      - icon: bi-database
+        title: Web Hosting
+        description: We offer reliable and secure web hosting services to ensure your website is always up and running smoothly.
+        button: Explore Plans
+        link: "#hosting"
+      - icon: bi-gear-wide-connected
+        title: Business Process Automation
+        description: Streamline your operations with our business process automation services, reducing manual effort and increasing efficiency through smart, automated workflows tailored to your needs.
+        button: Explore Plans
+        link: "#contact"
+  repairs:
+    title: We Repair
+    description: At 202Studios, we specialize in repairing a wide range of electronic devices, including Desktops, Laptops, Smart-Phones, Tablets & Gaming Consoles. Our expert technicians ensure fast, reliable, and professional service to get your devices back in top condition.
+    cards:
+      - title: Desktop Repairs
+        text: Comprehensive hardware and software repairs for custom PCs and brand-name desktops, including component upgrades, power supply replacements, and system diagnostics.
+        image: assets/img/We Repair Section/pc.png
+      - title: Laptop Repairs
+        text: Fast and reliable laptop fixes covering screen replacements, battery swaps, keyboard repairs, liquid damage recovery, and thermal cleanup for all major brands.
+        image: assets/img/We Repair Section/laptop.png
+      - title: Smartphone Repairs
+        text: Expert repair solutions for iOS and Android devices, specializing in cracked screen restoration, charge port fixes, battery replacements, and camera repairs.
+        image: assets/img/We Repair Section/phone.png
+      - title: Tablet Repairs
+        text: Professional tablet restoration services handling broken glass and digitizers, charging issues, battery degradation, and software troubleshooting.
+        image: assets/img/We Repair Section/tablet.png
+      - title: Gaming Consoles
+        text: Dedicated console repair for PlayStation, Xbox, and Nintendo systems, addressing HDMI port replacements, disc drive errors, overheating, and controller drift.
+        image: assets/img/We Repair Section/ps4.png
+  portfolio:
+    title: Portfolio
+    description: Check out some of our recent projects.
+    filters:
+      - label: All
+        value: "*"
+      - label: Websites
+        value: ".filter-website"
+      - label: Repairs
+        value: ".filter-repairs"
+    items:
+      - title: School Learning Management System Demo
+        description: A full learning management portal for a school environment with classrooms, assignment workflows, performance tracking, and parent-facing communication tools.
+        image: assets/img/portfolio/Websites/elearning/learning1.webp
+        images:
+          - assets/img/portfolio/Websites/elearning/learning4.webp
+          - assets/img/portfolio/Websites/elearning/learning1.webp
+          - assets/img/portfolio/Websites/elearning/learning2.webp
+        category: Educational Technology
+        client: Botswana School Network
+        date: 2024-08-14
+        url: https://school-demo.202studios.co.bw
+        filterCategory: ".filter-website"
+      - title: Smocho Small Business Management System
+        description: A custom operations dashboard for a small business covering sales tracking, inventory management, customer records, and reporting automation.
+        image: assets/img/portfolio/Websites/smocho/smocho2.webp
+        images:
+          - assets/img/portfolio/Websites/smocho/smocho2.webp
+          - assets/img/portfolio/Websites/smocho/smocho1.webp
+        category: Software Development
+        client: Smocho Business Solutions
+        date: 2023-11-06
+        url: https://smocho.202studios.co.bw
+        filterCategory: ".filter-website"
+      - title: Tswana Antique Store Website
+        description: A polished e-commerce storefront for an antique and collectibles brand, designed to showcase products, improve browsing flow, and drive customer conversions.
+        image: assets/img/portfolio/Websites/antique-store.jpg
+        images:
+          - assets/img/portfolio/Websites/antique-store.jpg
+        category: Web Development & E-commerce
+        client: Tswana Antique Store
+        date: 2024-02-20
+        url: https://tswana-antique.202studios.co.bw
+        filterCategory: ".filter-website"
+      - title: Colorfields Painting Contractors Website
+        description: A professional contractor website built to communicate service areas, trust signals, and a simple enquiry flow for quote requests and new leads.
+        image: assets/img/portfolio/Websites/colorfields/painting3.png
+        images:
+          - assets/img/portfolio/Websites/colorfields/painting3.png
+          - assets/img/portfolio/Websites/colorfields/painting1.png
+          - assets/img/portfolio/Websites/colorfields/painting2.png
+        category: Web Development
+        client: Colorfields Painting Contractors
+        date: 2024-05-17
+        url: https://colorfields.202studios.co.bw
+        filterCategory: ".filter-website"
+      - title: Lenovo Ideapad 5 Laptop Broken Hinges Repair
+        description: A precision laptop repair project focused on restoring hinge integrity, improving device stability, and returning the machine to full productivity.
+        image: assets/img/portfolio/Repairs/laptop-hinges-repair/img1.png
+        images:
+          - assets/img/portfolio/Repairs/laptop-hinges-repair/img1.png
+          - assets/img/portfolio/Repairs/laptop-hinges-repair/img2.png
+          - assets/img/portfolio/Repairs/laptop-hinges-repair/img3.png
+          - assets/img/portfolio/Repairs/laptop-hinges-repair/img4.png
+        category: Computer Repair
+        client: Individual Client
+        date: 23 May 2025
+        url: null
+        filterCategory: ".filter-repairs"
+      - title: Mobile Phone Screen Replacement & Battery Swap
+        description: A high-volume device restoration job involving screen replacement, battery health restoration, and performance checks for everyday smartphone users.
+        image: assets/img/portfolio/Repairs/hicence-phone-repair/hicence-phone1.webp
+        images:
+          - assets/img/portfolio/Repairs/hicence-phone-repair/hicence-phone1.webp
+          - assets/img/portfolio/Repairs/hicence-phone-repair/hicence-phone2.webp
+          - assets/img/portfolio/Repairs/hicence-phone-repair/hicence-phone3.webp
+        category: Phone Repair
+        client: Hicence Mobile Repair
+        date: 23 May 2025
+        url: null
+        filterCategory: ".filter-repairs"
+  faq:
+    title: Frequently Asked Questions
+    items:
+      - question: What types of electronics and mobile repair services do you offer?
+        answer: At 202Studios, we handle both mobile device repair and complex hardware diagnostics. Our mobile services include screen replacements, battery swaps, charging port repairs, and liquid damage recovery. Beyond smartphones and tablets, we perform board-level diagnostics and precision micro-soldering for computer components, laptops, and custom electronic control hardware.
+      - question: How long does a typical mobile screen or battery repair take?
+        answer: Most standard mobile repairs—such as screen replacements or battery installations—are completed within 30 minutes to 2 hours depending on parts availability. Complex repairs that involve logic board micro-soldering, data recovery, or liquid damage treatments generally take 24–48 hours for thorough testing and quality check.
+      - question: Do you provide software and custom web development services?
+        answer: Yes. In addition to hardware repairs, 202Studios builds custom software solutions, responsive websites, and specialized web applications. Whether you need a brand-new business website, an internal portal, or modifications to existing platforms, we deliver clean, performant code tailored to your goals.
+      - question: How can 202Studios help streamline or automate my business operations?
+        answer: We offer tailored business automation solutions designed to save time and reduce manual tasks. This includes setting up automated messaging systems, integrating digital workflows, configuring cloud routing/forms, and developing custom software scripts to connect your day-to-day tools into a single, cohesive workflow.
+      - question: How do I get a quote, and do you offer warranties on hardware repairs?
+        answer: You can request a free quote by reaching out through our contact page, sending us a message with your device/project details, or bringing your device in for a diagnostic check. All mobile and hardware repairs come with a standard service warranty covering installed parts and workmanship, ensuring your equipment performs reliably after service.
+  cta:
+    kicker: Need a quick solution?
+    heading: Let’s turn your next idea into a working product.
+    primaryCta: Book a Free Quote
+    secondaryCta: See Recent Work
+  contact:
+    title: Contact Us
+    formTitle: Feedback Form
+    submitText: Send Message →

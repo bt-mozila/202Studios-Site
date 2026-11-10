@@ -1,0 +1,94 @@
+hosting:
+  title: Web & Cloud Hosting Packages
+  description: Fast, secure and affordable hosting plans to suit personal sites, email services, virtual card platforms and growing businesses.
+  packages:
+    - id: web-starter
+      name: Web Starter
+      price: 5.99
+      currency: BWP
+      interval: month
+      description: Affordable plan for personal sites and small projects.
+      features:
+        - 1 Website
+        - 10 GB Storage
+        - 50 GB Bandwidth
+        - Free SSL Certificate
+        - 1 Email Account
+      cta: "Sign Up"
+      contact: "mailto:info@202studios.co.bw?subject=Web%20Starter%20Enquiry"
+      image: assets/img/portfolio/Websites/smocho/smocho1.webp
+    - id: web-business
+      name: Web Business
+      price: 19.99
+      currency: BWP
+      interval: month
+      description: For growing businesses that need more resources and backups.
+      features:
+        - 5 Websites
+        - 50 GB Storage
+        - 500 GB Bandwidth
+        - Free SSL Certificate
+        - 10 Email Accounts
+        - Daily Backups
+      cta: "Contact Sales"
+      contact: "mailto:info@202studios.co.bw?subject=Web%20Business%20Enquiry"
+      image: assets/img/portfolio/Websites/smocho/smocho2.webp
+    - id: email-basic
+      name: Email Hosting (Basic)
+      price: 3.99
+      currency: BWP
+      interval: month
+      description: Reliable email hosting for individuals and small teams.
+      features:
+        - 5 Email Accounts
+        - 2 GB Mailbox per Account
+        - Webmail & IMAP/POP3
+        - Spam Filtering
+        - SSL/TLS Security
+      cta: "Get Email Hosting"
+      contact: "mailto:info@202studios.co.bw?subject=Email%20Hosting%20Basic%20Enquiry"
+      image: assets/img/portfolio/Websites/elearning/learning1.webp
+    - id: email-business
+      name: Email Hosting (Business)
+      price: 12.99
+      currency: BWP
+      interval: month
+      description: Business-grade email hosting with advanced features.
+      features:
+        - 25 Email Accounts
+        - 10 GB Mailbox per Account
+        - Shared Calendars & Contacts
+        - Advanced Spam & Security
+        - Daily Backups
+      cta: "Contact Sales"
+      contact: "mailto:info@202studios.co.bw?subject=Email%20Hosting%20Business%20Enquiry"
+      image: assets/img/portfolio/Websites/elearning/learning2.webp
+    - id: virtual-cards-basic
+      name: Virtual Cards Hosting (Basic)
+      price: 9.99
+      currency: BWP
+      interval: month
+      description: Host virtual card services and tokenized card data with secure endpoints.
+      features:
+        - 100 Virtual Cards
+        - Secure API Access
+        - Monthly Activity Logs
+        - Basic Fraud Monitoring
+      cta: "Request Demo"
+      contact: "mailto:info@202studios.co.bw?subject=Virtual%20Cards%20Basic%20Enquiry"
+      image: assets/img/portfolio/Websites/smocho/smocho1.webp
+    - id: virtual-cards-advanced
+      name: Virtual Cards Hosting (Advanced)
+      price: 29.99
+      currency: BWP
+      interval: month
+      description: Advanced virtual card platform hosting with high limits and SLA-backed uptime.
+      features:
+        - 1000 Virtual Cards
+        - High-Throughput API
+        - Enhanced Fraud Detection
+        - SLA-backed Uptime
+        - Dedicated Support
+      cta: "Contact Sales"
+      contact: "mailto:info@202studios.co.bw?subject=Virtual%20Cards%20Advanced%20Enquiry"
+      image: assets/img/portfolio/Websites/smocho/smocho2.webp

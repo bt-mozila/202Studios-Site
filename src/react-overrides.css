@@ -1,0 +1,28 @@
+/* Small additions needed because Bootstrap's JS (carousel / collapse / modal) is now handled by React.
+   Everything else comes from the original public/assets/css/style.css, untouched. */
+
+/* "We Repair" carousel: slide track (replaces Bootstrap's JS-driven slide classes) */
+#aboutCarousel .carousel-inner { overflow: hidden; }
+#aboutCarousel .rc-track { display: flex; transition: transform 0.6s ease-in-out; }
+#aboutCarousel .rc-track > .carousel-item { display: block; float: none; flex: 0 0 100%; margin-right: 0; }
+
+/* Services CTA wrapper (was an inline style with !important in the old markup) */
+.service-cta { padding-left: 70px !important; }
+.service-cta .btn { padding: 8px 20px !important; }
+
+/* Portfolio / shop items fade in when a filter is applied (replaces the Isotope animation) */
+@keyframes rcFadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.portfolio-item, #products-container > div { animation: rcFadeIn 0.4s ease both; }
+
+/* FAQ accordion: anchors are real links again, keep them looking identical */
+.why-us .accordion-list a { cursor: pointer; }
+
+/* Legal modals: lock page scroll while open */
+body.modal-open { overflow: hidden; }
+
+/* Portfolio-details slider (React replacement for Swiper) */
+.portfolio-details-slider .swiper-wrapper { transition: transform 400ms ease; }
+.portfolio-details-slider .swiper-pagination-bullet { cursor: pointer; }
+
+/* Footer links that open modals */
+#footer .footer-links a[role="button"] { cursor: pointer; }
